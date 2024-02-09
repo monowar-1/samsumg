@@ -1,0 +1,294 @@
+body {
+    background: #f7f4f4;
+    margin: 0;
+}
+
+.main-nav {
+    background: #FFFFFF;
+    position: sticky;
+    top: 0;
+    opacity: 0.8;
+}
+
+.top-nav {
+    background: ;
+    justify-content: space-between;
+    display: flex;
+
+}
+
+.top-nav-2 {
+    justify-content: center;
+    display: flex;
+
+}
+
+.top-nav-2 a {
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    border-top: 3px solid transparent;
+}
+
+.top-nav-2 a:hover {
+    border-top: 3px solid #00b3e3;
+}
+
+.dropdown {
+    margin: 5px;
+}
+
+.dropbtn {
+    background: transparent;
+    border: 0px;
+    font-style: bold;
+    font-size: 26.25px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.menu {
+    margin: 5px;
+    margin-right: 45px;
+    font-size: 30px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(247, 246, 246, 0.2);
+    z-index: 1;
+    font-family: 'Poppins', sans-serif;
+}
+
+.dropdown-content a {
+    color: black;
+    /* padding: 12px 16px; */
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #fdfafa
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #fcfdfc;
+}
+
+.main-grandfather {
+    margin-top: 55px;
+    justify-content: center;
+    display: flex;
+}
+
+.main-1 {
+    margin-top: 180px;
+}
+
+.span-1 {
+    font-size: 60px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.sec-2 div {
+    display: flex;
+    justify-content: center;
+}
+
+.text-1 {
+    font-size: 11px;
+    color: #575757;
+    font-family: 'Poppins', sans-serif;
+}
+
+.text_3 {
+    height: auto;
+    margin-left: 40.25%;
+    margin-right: 40.25%;
+    text-align: center;
+
+}
+
+div .text-3 {
+    font-size: 14px;
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+div .text-4 {
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 50.25px;
+}
+
+.but-1 {
+    background: white;
+    border-radius: 25px;
+    border: none;
+    height: 100%;
+    width: auto;
+}
+
+.vi {
+    border-radius: 20px;
+}
+
+.but-tx {
+    display: flex;
+    justify-content: left;
+    font-size: 25px;
+    margin-bottom: 25px;
+
+}
+
+.but-tx-1 {
+    justify-content: top;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.but-2 {
+    margin-left: 35px;
+    justify-content: right;
+    background: white;
+    border-radius: 25px;
+    border: none;
+}
+
+.vi-1 {
+    border-radius: 30px;
+    width: 95%;
+    height: 100%;
+}
+
+.div-3 {
+    justify-content: right;
+}
+
+.div-3 div {
+    padding: 15px;
+    margin: 15px;
+}
+
+.div-4 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.div-4 div {
+    padding: 20px;
+    margin: 30px;
+    background: white;
+    border-radius: 10px;
+}
+
+.div-3 div img {
+    border-radius: 10%;
+}
+
+.div-5 {
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.div-5 div {
+    border-radius: 10%;
+    background: white;
+    margin: 20px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.div-5 div span {
+    padding: 10px;
+    text-align: center;
+    display: flex;
+}
+
+.div-a {
+    font-size: 16px;
+}
+
+.div-c span {
+    font-size: 20px;
+}
+
+/* father */
+.main-father {
+    background: white;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-radius: 25px;
+}
+
+.father-video {
+    justify-content: center;
+    margin: 10px;
+}
+
+.father-video video {
+    height: 99%;
+    width: 99%;
+    margin: 10px;
+}
+
+.flex-window {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.flex {
+    font-family: 'Poppins', sans-serif;
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.flex-window p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-style: 500;
+    margin-right: ;
+    padding-top: 20px;
+}
+
+.tex {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-style: 400;
+}
+
+.one-size {
+    display: flex;
+    justify-content: center;
+}
+
+.one-size-img {
+    height: 98%;
+    width: 98%;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+
+.one-size-text {
+    display: flex;
+}
+
+.one-size-text span {
+    justify-content: right;
+    margin-bottom: 250px;
+}
